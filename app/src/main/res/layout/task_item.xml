@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/taskSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Feladat tárgya"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/taskProirity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taskSubject"
+            android:padding="8dp"
+            android:text="Feladat fontossága"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/taskStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taskProirity"
+            android:padding="8dp"
+            android:text="Feladat státusza"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/taskContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taskStatus"
+            android:padding="8dp"
+            android:text="Tartalom"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/taskNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taskContent"
+            android:padding="8dp"
+            android:text="Megjegyzés"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/taskSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taskNote"
+            android:padding="8dp"
+            android:text="Küldő"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/taskSenderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taskSender"
+            android:padding="8dp"
+            android:text="Küldő státusza"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/taskRecipient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taskSenderStatus"
+            android:padding="8dp"
+            android:text="Fogadó"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taskRecipient"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/in_progress_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Folyamatban"
+                />
+
+            <Button
+                android:id="@+id/completed_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="Kész" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="147dp"
+            android:background="@android:color/black"
+            android:text="Törlés"
+            android:textColor="@android:color/white"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

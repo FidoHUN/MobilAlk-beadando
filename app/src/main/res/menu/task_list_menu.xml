@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/make_task"
+        android:title="Feladat létreahozása"
+        app:showAsAction="never"
+        android:onClick="makeTask">
+    </item>
+
+
+    <item
+        android:id="@+id/logout"
+        android:title="Kijelentkezés"
+        app:showAsAction="never"
+        android:onClick="logout">
+    </item>
+</menu>

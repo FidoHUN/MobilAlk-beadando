@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">FHIR_Communication</string>
+    <string name="name">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="email_adress">E-mail cím</string>
+    <string name="password_again">Jelszó újra</string>
+    <string name="cancel">Mégse</string>
+    <string-array name="workstatuses">
+        <item>Doktor</item>
+        <item>Gyakornok</item>
+        <item>Nővér</item>
+        <item>Mentős</item>
+        <item>Egyéb</item>
+    </string-array>
+    <string-array name="priorities">
+        <item>Sűrgős</item>
+        <item>Rutin</item>
+    </string-array>
+    <string-array name="task_subjects">
+        <item>Vért venni Erzsi nénitől</item>
+        <item>Gabi néni vérnyomás!</item>
+        <item>Intenzív osztály ellenőrzés</item>
+        <item>Sűrgőségi ellenőrzés</item>
+    </string-array>
+    <string-array name="task_priorities">
+        <item>Rutin</item>
+        <item>Rutin</item>
+        <item>Sűrgős</item>
+        <item>Sűrgős</item>
+    </string-array>
+    <string-array name="task_statuses">
+        <item>Nincs kész</item>
+        <item>Nincs kész</item>
+        <item>Folyamatban</item>
+        <item>Kész</item>
+    </string-array>
+    <string-array name="task_contents">
+        <item>Vegyél vért kérlek Erzsi nénitől!</item>
+        <item>Mérd meg kérlek Erzsi néni vérnyomását!</item>
+        <item>Reggeli intenzív osztály ellenőrzést kérlek végezd el!</item>
+        <item>Sűrgősségi osztáy ellenőrzését kérlek végezd el! Lehetőleg délelőtt!</item>
+    </string-array>
+    <string-array name="task_notes">
+        <item>2.emelet 13.kórterem 5.ágy</item>
+        <item>1.emelet 6.kórterem 7.ágy</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="task_senders">
+        <item>Készülék</item>
+        <item>Készülék</item>
+        <item>konzulens@gmail.com</item>
+        <item>foorvos@gmail.com</item>
+    </string-array>
+    <string-array name="task_sender_statuses">
+        <item>Készülék</item>
+        <item>Készülék</item>
+        <item>Orvos</item>
+        <item>Orvos</item>
+    </string-array>
+    <string-array name="task_recipients">
+        <item>masik@gmail.com</item>
+        <item>teszter@gmail.com</item>
+        <item>teszter@gmail.com</item>
+        <item>teszter@gmail.com</item>
+    </string-array>
+</resources>
